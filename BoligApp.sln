@@ -6,6 +6,7 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E2590452-3FA5-4599-8E2F-6637C159E982}"
 	ProjectSection(SolutionItems) = preProject
 		Brainstorm.txt = Brainstorm.txt
+		..\..\..\Pictures\DBDiagram.png = ..\..\..\Pictures\DBDiagram.png
 		Kravspecifikation.txt = Kravspecifikation.txt
 	EndProjectSection
 EndProject
