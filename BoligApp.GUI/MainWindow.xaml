@@ -115,7 +115,7 @@
                               HorizontalAlignment="Stretch" />
                 <GroupBox x:Name="groupBoxCentre"
                           Grid.Column="2"
-                          Header="Liste"
+                          Header="Oversigt"
                           Margin="5">
                     <UserControl x:Name="userControlCentre"
                                  Margin="5" />
@@ -124,7 +124,7 @@
                               HorizontalAlignment="Stretch" />
                 <GroupBox x:Name="groupBoxRight"
                           Grid.Column="4"
-                          Header="Data"
+                          Header="Detaljer"
                           Margin="5">
                     <UserControl x:Name="userControlRight"
                                  Margin="5" />
