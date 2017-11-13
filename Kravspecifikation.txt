@@ -11,5 +11,5 @@
 * Brugerfladen er dansk
 * Al kode er engelsk
 * Der følges almindelig navnekonventioner
-  * private fields er caMel-case
-  * public fields, properties, alle xaml-objekter, metoder events m.m. er Pascal-case
+  * private fields, alle xaml-objekter m.m. er caMel-case
+  * public fields, properties, metoder events m.m. er PasCal-case
