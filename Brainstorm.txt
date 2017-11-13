@@ -7,6 +7,4 @@ Lejlighedsnr
 LejlighedAdresse
 LejlighedPostBy
 Afdeling
-User
-UserName
-UserPassword
+Husleje
