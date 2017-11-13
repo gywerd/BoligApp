@@ -1,0 +1,6 @@
+C:\Users\bern0145\source\repos\BoligApp\BoligApp.IO\bin\Debug\BoligApp.IO.dll
+C:\Users\bern0145\source\repos\BoligApp\BoligApp.IO\bin\Debug\BoligApp.IO.pdb
+C:\Users\bern0145\source\repos\BoligApp\BoligApp.IO\obj\Debug\BoligApp.IO.csprojResolveAssemblyReference.cache
+C:\Users\bern0145\source\repos\BoligApp\BoligApp.IO\obj\Debug\BoligApp.IO.csproj.CoreCompileInputs.cache
+C:\Users\bern0145\source\repos\BoligApp\BoligApp.IO\obj\Debug\BoligApp.IO.dll
+C:\Users\bern0145\source\repos\BoligApp\BoligApp.IO\obj\Debug\BoligApp.IO.pdb

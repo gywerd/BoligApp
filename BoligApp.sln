@@ -3,7 +3,37 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2008
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E2590452-3FA5-4599-8E2F-6637C159E982}"
+	ProjectSection(SolutionItems) = preProject
+		Brainstorm.txt = Brainstorm.txt
+		Kravspecifikation.txt = Kravspecifikation.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoligApp.GUI", "BoligApp.GUI\BoligApp.GUI.csproj", "{E7C2FA56-2241-41ED-AD87-A4C21A0FCE91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoigApp.Bizz", "BoigApp.Bizz\BoigApp.Bizz.csproj", "{69DD7613-5312-4376-8672-81403B6D0622}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoligApp.IO", "BoligApp.IO\BoligApp.IO.csproj", "{929B073D-BFF9-430C-82E8-BF62D0364F38}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7C2FA56-2241-41ED-AD87-A4C21A0FCE91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7C2FA56-2241-41ED-AD87-A4C21A0FCE91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7C2FA56-2241-41ED-AD87-A4C21A0FCE91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7C2FA56-2241-41ED-AD87-A4C21A0FCE91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69DD7613-5312-4376-8672-81403B6D0622}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69DD7613-5312-4376-8672-81403B6D0622}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69DD7613-5312-4376-8672-81403B6D0622}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69DD7613-5312-4376-8672-81403B6D0622}.Release|Any CPU.Build.0 = Release|Any CPU
+		{929B073D-BFF9-430C-82E8-BF62D0364F38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{929B073D-BFF9-430C-82E8-BF62D0364F38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{929B073D-BFF9-430C-82E8-BF62D0364F38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{929B073D-BFF9-430C-82E8-BF62D0364F38}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection

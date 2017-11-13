@@ -1,0 +1,15 @@
+* Brugeren skal kunne oprette lejere
+* Brugeren skal kunne se eksisterende lejere
+* Brugeren skal kunne tildele en lejlighed til en lejer
+* Brugeren skal kunne se ledige lejemål
+* Vinduet skal være maksimeret (kan kun minimeres)
+* Der skal være en filbjælke(Menu) øverst
+* Der skal være et statusbar (DockPanel) nederst
+* Funktionaliteten skal være imellem Menu & statusbar
+* Funktionalitet placeres i UserControls
+* To obligatoriske classes (entities): Tennant (lejer) & Apartment (lejlighed)
+* Brugerfladen er dansk
+* Al kode er engelsk
+* Der følges almindelig navnekonventioner
+  * private fields er caMel-case
+  * public fields, properties, alle xaml-objekter, metoder events m.m. er Pascal-case

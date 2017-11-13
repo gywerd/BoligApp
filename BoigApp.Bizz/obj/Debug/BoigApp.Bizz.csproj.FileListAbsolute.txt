@@ -1,0 +1,6 @@
+C:\Users\bern0145\source\repos\BoligApp\BoigApp.Bizz\bin\Debug\BoigApp.Bizz.dll
+C:\Users\bern0145\source\repos\BoligApp\BoigApp.Bizz\bin\Debug\BoigApp.Bizz.pdb
+C:\Users\bern0145\source\repos\BoligApp\BoigApp.Bizz\obj\Debug\BoigApp.Bizz.csprojResolveAssemblyReference.cache
+C:\Users\bern0145\source\repos\BoligApp\BoigApp.Bizz\obj\Debug\BoigApp.Bizz.csproj.CoreCompileInputs.cache
+C:\Users\bern0145\source\repos\BoligApp\BoigApp.Bizz\obj\Debug\BoigApp.Bizz.dll
+C:\Users\bern0145\source\repos\BoligApp\BoigApp.Bizz\obj\Debug\BoigApp.Bizz.pdb

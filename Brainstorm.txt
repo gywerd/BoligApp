@@ -1,0 +1,12 @@
+Lejer
+LejerNavn
+LejerAdresse
+LejerPostBy
+Lejlighed
+Lejlighedsnr
+LejlighedAdresse
+LejlighedPostBy
+Afdeling
+User
+UserName
+UserPassword
