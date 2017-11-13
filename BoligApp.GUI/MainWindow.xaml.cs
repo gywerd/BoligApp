@@ -24,5 +24,25 @@ namespace BoligApp.GUI
         {
             InitializeComponent();
         }
+
+        private void OnMenuFilesClose_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void MenuHelpAbout_Click(object sender, RoutedEventArgs e)
+        {
+             MessageBox.Show("BoligadministrationsApp (CRM) for\nABC Boliger A/S\n\nBoligApp 1.0", "Om BoligApp", MessageBoxButton.OK, MessageBoxImage.Asterisk);
+        }
+
+        private void On_ButtonTennants_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ButtonApartements_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

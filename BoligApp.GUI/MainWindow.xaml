@@ -5,8 +5,132 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BoligApp.GUI"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="BoligApp" Height="900" Width="1600" 
+        ResizeMode="CanMinimize">
     <Grid>
-        
+        <DockPanel>
+            <Menu DockPanel.Dock="Top"
+                  Height="25"
+                  Background="Transparent">
+                <MenuItem Header="Filer">
+                    <MenuItem Click="OnMenuFilesClose_Click"
+                              Header="Luk" />
+                </MenuItem>
+                <MenuItem Header="Hjælp">
+                    <MenuItem Click="MenuHelpAbout_Click"
+                              Header="Om" />
+                </MenuItem>
+            </Menu>
+            <StatusBar x:Name="statusBar"
+                       Background="RoyalBlue"
+                       DockPanel.Dock="Bottom"
+                       Height="30"
+                       >
+                <Label x:Name="labelStatusBar"
+                       Content="..."
+                       Foreground="White"
+                       Height="27" />
+            </StatusBar>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="200" />
+                    <ColumnDefinition Width="5" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="5" />
+                    <ColumnDefinition Width="360" />
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="225" />
+                    </Grid.RowDefinitions>
+                    <GroupBox Header="Menu"
+                              Margin="5">
+                        <StackPanel Grid.Row="0"
+                                    Margin="5">
+                            <Button x:Name="buttonTennants"
+                                    Content="Lejere"
+                                    Height="35"
+                                    Click="On_ButtonTennants_Click" />
+                            <Button x:Name="buttonApartements"
+                                    Content="Lejligheder"
+                                    Height="35" 
+                                    Click="ButtonApartements_Click" />
+                        </StackPanel>
+                    </GroupBox>
+                    <GroupBox Grid.Row="1"
+                              Header="Statistik"
+                              Margin="5">
+                        <Grid x:Name="gridDailyTotals">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="90" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="27*" />
+                                <RowDefinition Height="27*" />
+                                <RowDefinition Height="27*" />
+                                <RowDefinition Height="27*" />
+                            </Grid.RowDefinitions>
+                            <Label Content="Antal lejligheder:"
+                                   Grid.Row="0"
+                                   Grid.Column="0"
+                                   HorizontalContentAlignment="Right"/>
+                            <Label Content="- antal udlejede:"
+                                   Grid.Row="1"
+                                   Grid.Column="0"
+                                   HorizontalContentAlignment="Right" />
+                            <Label Content="- antal ledige:"
+                                   Grid.Row="2"
+                                   Grid.Column="0"
+                                   HorizontalContentAlignment="Right" />
+                            <Label Content="Antal lejere:"
+                                   Grid.Row="3"
+                                   Grid.Column="0"
+                                   HorizontalContentAlignment="Left" />
+                            <Label x:Name="labelTotalApartments"
+                                   Grid.Column="1"
+                                   Grid.Row="0"
+                                   Content="{Binding AmountOfSoldJourneys}"
+                                   HorizontalContentAlignment="Left"/>
+                            <Label x:Name="labelApartmentsRented"
+                                   Grid.Column="1"
+                                   Grid.Row="1"
+                                   Content="{Binding AmountOfFirstClassJourneys}"
+                                   HorizontalContentAlignment="Left" />
+                            <Label x:Name="labelApartmentsFree"
+                                   Grid.Column="1"
+                                   Grid.Row="2"
+                                   Content="{Binding AmountOfStandardJourneys}"
+                                   HorizontalContentAlignment="Left" />
+                            <Label x:Name="labelTotalTennants"
+                                   Grid.Column="1"
+                                   Grid.Row="3"
+                                   Content="{Binding AmountOfPassengers}"
+                                   HorizontalContentAlignment="Left" />
+                        </Grid>
+                    </GroupBox>
+                </Grid>
+                <GridSplitter Grid.Column="1"
+                              HorizontalAlignment="Stretch" />
+                <GroupBox x:Name="groupBoxCentre"
+                          Grid.Column="2"
+                          Header="Liste"
+                          Margin="5">
+                    <UserControl x:Name="userControlCentre"
+                                 Margin="5" />
+                </GroupBox>
+                <GridSplitter Grid.Column="3"
+                              HorizontalAlignment="Stretch" />
+                <GroupBox x:Name="groupBoxRight"
+                          Grid.Column="4"
+                          Header="Data"
+                          Margin="5">
+                    <UserControl x:Name="userControlRight"
+                                 Margin="5" />
+                </GroupBox>
+            </Grid>
+        </DockPanel>
+
     </Grid>
 </Window>
