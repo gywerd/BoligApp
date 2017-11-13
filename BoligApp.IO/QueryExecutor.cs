@@ -61,7 +61,7 @@ namespace BoligApp.IO
 
         private static string GetConnectionString()
         {
-            return @"Data Source=10.205.44.39,49172;Initial Catalog=RygOgRejs;Persist Security Info=True;User ID=Aspit;Password=Server2012";
+            return @"Data Source=10.205.44.39,49172;Initial Catalog=DanielBoligApp;Persist Security Info=True;User ID=Aspit;Password=Server2012";
         }
         #endregion
     }
