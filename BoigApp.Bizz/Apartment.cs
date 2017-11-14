@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BoigApp.Bizz
+namespace BoligApp.Bizz
 {
     public class Apartment
     {
@@ -78,9 +78,9 @@ namespace BoigApp.Bizz
         /// <summary>
         /// Method, that loads a collection of appartments from the database
         /// </summary>
-        public ObservableCollection<Tennant> LoadCollectionOfAppartments()
+        public ObservableCollection<Apartment> LoadCollectionOfAppartments()
         {
-            ObservableCollection<Tennant> t = new ObservableCollection<Tennant>();
+            ObservableCollection<Apartment> t = new ObservableCollection<Apartment>();
             return t;
         }
 

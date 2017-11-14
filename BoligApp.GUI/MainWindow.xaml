@@ -35,7 +35,8 @@
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="200" />
                     <ColumnDefinition Width="5" />
-                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="7*" />
+                    <ColumnDefinition Width="505*"/>
                     <ColumnDefinition Width="5" />
                     <ColumnDefinition Width="360" />
                 </Grid.ColumnDefinitions>
@@ -116,14 +117,14 @@
                 <GroupBox x:Name="groupBoxCentre"
                           Grid.Column="2"
                           Header="Oversigt"
-                          Margin="5">
-                    <UserControl x:Name="userControlCentre"
+                          Margin="5" Grid.ColumnSpan="2">
+                    <UserControl x:Name="userControlCenter"
                                  Margin="5" />
                 </GroupBox>
-                <GridSplitter Grid.Column="3"
+                <GridSplitter Grid.Column="4"
                               HorizontalAlignment="Stretch" />
                 <GroupBox x:Name="groupBoxRight"
-                          Grid.Column="4"
+                          Grid.Column="5"
                           Header="Detaljer"
                           Margin="5">
                     <UserControl x:Name="userControlRight"

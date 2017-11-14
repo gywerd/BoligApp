@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BoigApp.Bizz
+namespace BoligApp.Bizz
 {
     public class Tennant
     {

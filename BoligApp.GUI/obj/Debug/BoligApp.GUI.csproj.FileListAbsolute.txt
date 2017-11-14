@@ -13,3 +13,11 @@ C:\Users\bern0145\source\repos\BoligApp\BoligApp.GUI\obj\Debug\BoligApp.GUI.cspr
 C:\Users\bern0145\source\repos\BoligApp\BoligApp.GUI\obj\Debug\BoligApp.GUI.csproj.CoreCompileInputs.cache
 C:\Users\bern0145\source\repos\BoligApp\BoligApp.GUI\obj\Debug\BoligApp.GUI.exe
 C:\Users\bern0145\source\repos\BoligApp\BoligApp.GUI\obj\Debug\BoligApp.GUI.pdb
+C:\Users\bern0145\source\repos\BoligApp\BoligApp.GUI\obj\Debug\DataViewApartments.g.cs
+C:\Users\bern0145\source\repos\BoligApp\BoligApp.GUI\obj\Debug\DataViewTennants.g.cs
+C:\Users\bern0145\source\repos\BoligApp\BoligApp.GUI\obj\Debug\DataViewApartments.baml
+C:\Users\bern0145\source\repos\BoligApp\BoligApp.GUI\obj\Debug\DataViewTennants.baml
+C:\Users\bern0145\source\repos\BoligApp\BoligApp.GUI\obj\Debug\UiCreateTennant.g.cs
+C:\Users\bern0145\source\repos\BoligApp\BoligApp.GUI\bin\Debug\BoligApp.Bizz.dll
+C:\Users\bern0145\source\repos\BoligApp\BoligApp.GUI\bin\Debug\BoligApp.Bizz.pdb
+C:\Users\bern0145\source\repos\BoligApp\BoligApp.GUI\obj\Debug\UiCreateTennant.baml

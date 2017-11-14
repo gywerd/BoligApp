@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BoligApp.Bizz;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,9 +21,17 @@ namespace BoligApp.GUI
     /// </summary>
     public partial class MainWindow : Window
     {
+        AppBizz CAB = new AppBizz();
+        DataViewTennants ucTennants;
+        DataViewApartments ucApartments;
+        UiCreateTennant uiCreateTennant;
+
         public MainWindow()
         {
             InitializeComponent();
+            CAB.GetUpdate();
+            uiCreateTennant = new UiCreateTennant(CAB, userControlRight);
+            userControlCenter.Content = ucTennants = new DataViewTennants(CAB, userControlCenter, userControlRight);
         }
 
         private void OnMenuFilesClose_Click(object sender, RoutedEventArgs e)
@@ -37,12 +46,12 @@ namespace BoligApp.GUI
 
         private void On_ButtonTennants_Click(object sender, RoutedEventArgs e)
         {
-
+            userControlCentre.Content = ucTennants = new DataViewTennants(CAB, userControlRight, uiCreateTennant);
         }
 
         private void ButtonApartements_Click(object sender, RoutedEventArgs e)
         {
-
+            userControlCentre.Content = ucApartments = new DataViewApartments(CAB, userControlRight, uiCreateTennant);
         }
     }
 }

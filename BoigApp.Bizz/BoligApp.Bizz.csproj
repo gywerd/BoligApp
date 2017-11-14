@@ -7,8 +7,8 @@
     <ProjectGuid>{69DD7613-5312-4376-8672-81403B6D0622}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BoigApp.Bizz</RootNamespace>
-    <AssemblyName>BoigApp.Bizz</AssemblyName>
+    <RootNamespace>BoligApp.Bizz</RootNamespace>
+    <AssemblyName>BoligApp.Bizz</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -44,6 +44,12 @@
     <Compile Include="AppBizz.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tennant.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BoligApp.IO\BoligApp.IO.csproj">
+      <Project>{929b073d-bff9-430c-82e8-bf62d0364f38}</Project>
+      <Name>BoligApp.IO</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

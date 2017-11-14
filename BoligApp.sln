@@ -12,7 +12,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoligApp.GUI", "BoligApp.GUI\BoligApp.GUI.csproj", "{E7C2FA56-2241-41ED-AD87-A4C21A0FCE91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoigApp.Bizz", "BoigApp.Bizz\BoigApp.Bizz.csproj", "{69DD7613-5312-4376-8672-81403B6D0622}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoligApp.Bizz", "BoigApp.Bizz\BoligApp.Bizz.csproj", "{69DD7613-5312-4376-8672-81403B6D0622}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoligApp.IO", "BoligApp.IO\BoligApp.IO.csproj", "{929B073D-BFF9-430C-82E8-BF62D0364F38}"
 EndProject

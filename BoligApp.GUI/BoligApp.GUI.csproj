@@ -54,6 +54,26 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="UiCreateApartment.xaml.cs">
+      <DependentUpon>UiCreateApartment.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UiCreateTennant.xaml.cs">
+      <DependentUpon>UiCreateTennant.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UiEditApartment.xaml.cs">
+      <DependentUpon>UiEditApartment.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UiEditTennant.xaml.cs">
+      <DependentUpon>UiEditTennant.xaml</DependentUpon>
+    </Compile>
+    <Page Include="DataViewApartments.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DataViewTennants.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -62,10 +82,32 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="DataViewApartments.xaml.cs">
+      <DependentUpon>DataViewApartments.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DataViewTennants.xaml.cs">
+      <DependentUpon>DataViewTennants.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="UiCreateApartment.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UiCreateTennant.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UiEditApartment.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UiEditTennant.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -92,6 +134,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BoigApp.Bizz\BoligApp.Bizz.csproj">
+      <Project>{69dd7613-5312-4376-8672-81403b6d0622}</Project>
+      <Name>BoligApp.Bizz</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
