@@ -46,12 +46,12 @@ namespace BoligApp.GUI
 
         private void On_ButtonTennants_Click(object sender, RoutedEventArgs e)
         {
-            userControlCentre.Content = ucTennants = new DataViewTennants(CAB, userControlRight, uiCreateTennant);
+            userControlCenter.Content = ucTennants = new DataViewTennants(CAB, userControlRight, uiCreateTennant);
         }
 
         private void ButtonApartements_Click(object sender, RoutedEventArgs e)
         {
-            userControlCentre.Content = ucApartments = new DataViewApartments(CAB, userControlRight, uiCreateTennant);
+            userControlCenter.Content = ucApartments = new DataViewApartments(CAB, userControlRight, uiCreateTennant);
         }
     }
 }

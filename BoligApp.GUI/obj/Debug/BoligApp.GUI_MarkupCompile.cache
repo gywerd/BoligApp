@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\bern0145\source\repos\BoligApp\BoligApp.GUI\App.xaml
-4-260371625
+7-844244349
 
-8-1892563691
+11-1385566058
 141577313339
-DataViewApartments.xaml;DataViewTennants.xaml;MainWindow.xaml;UiCreateTennant.xaml;
+DataViewApartments.xaml;DataViewTennants.xaml;MainWindow.xaml;UiCreateApartment.xaml;UiCreateTennant.xaml;UiEditApartment.xaml;UiEditTennant.xaml;
 
 False
 

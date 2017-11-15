@@ -21,3 +21,9 @@ C:\Users\bern0145\source\repos\BoligApp\BoligApp.GUI\obj\Debug\UiCreateTennant.g
 C:\Users\bern0145\source\repos\BoligApp\BoligApp.GUI\bin\Debug\BoligApp.Bizz.dll
 C:\Users\bern0145\source\repos\BoligApp\BoligApp.GUI\bin\Debug\BoligApp.Bizz.pdb
 C:\Users\bern0145\source\repos\BoligApp\BoligApp.GUI\obj\Debug\UiCreateTennant.baml
+C:\Users\bern0145\source\repos\BoligApp\BoligApp.GUI\obj\Debug\UiCreateApartment.g.cs
+C:\Users\bern0145\source\repos\BoligApp\BoligApp.GUI\obj\Debug\UiEditApartment.g.cs
+C:\Users\bern0145\source\repos\BoligApp\BoligApp.GUI\obj\Debug\UiEditTennant.g.cs
+C:\Users\bern0145\source\repos\BoligApp\BoligApp.GUI\obj\Debug\UiCreateApartment.baml
+C:\Users\bern0145\source\repos\BoligApp\BoligApp.GUI\obj\Debug\UiEditApartment.baml
+C:\Users\bern0145\source\repos\BoligApp\BoligApp.GUI\obj\Debug\UiEditTennant.baml
