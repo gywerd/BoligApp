@@ -36,7 +36,7 @@ namespace BoligApp.GUI
 
         private void OnMenuFilesClose_Click(object sender, RoutedEventArgs e)
         {
-
+            this.Close();
         }
 
         private void MenuHelpAbout_Click(object sender, RoutedEventArgs e)
